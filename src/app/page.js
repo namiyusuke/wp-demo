@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Link href="/pages">記事一覧</Link>
+      <Link href="/posts">記事一覧</Link>
     </main>
   );
 }
